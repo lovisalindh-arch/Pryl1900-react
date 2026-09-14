@@ -1,0 +1,16 @@
+.meny {
+    display: none;
+}
+
+.grid-container.startsida {
+    min-height: auto;
+}
+
+* {
+    color: black;
+    background-color: white;
+}
+
+body {
+    font-size: 12pt;
+}
