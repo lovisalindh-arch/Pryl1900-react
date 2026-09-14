@@ -42,6 +42,18 @@ body {
     margin-right: 20px;
 }
 
+.hamburger-knapp {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    color: #4C4D4F;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: none;
+}
+
 .hamburger {
     display: flex;
     flex-direction: column;
@@ -404,8 +416,6 @@ body {
             "bild";
     }
 }
-
-
 
 .kontakt {
     position: relative;

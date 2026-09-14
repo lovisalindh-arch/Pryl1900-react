@@ -12,14 +12,14 @@ function Homepage () {
             )}
             <div className="meny-platshallare"></div>
             <ul>
-                <li> <a href="#" className="hamburger-knapp">
+                <li> <button className="hamburger-knapp">
                         <div class="hamburger">
                             <span></span>
                             <span></span>
                             <span></span>
                         </div>
                             MENY 
-                        </a>
+                        </button>
 
                     <div className="sub-meny">
                         <ul>
