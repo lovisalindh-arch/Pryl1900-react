@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import '../styles/style.css';
 
-function Homepage () {
+function Meny () {
     const location = useLocation();
     const arStartsidan = location.pathname === '/';
 
@@ -13,7 +13,7 @@ function Homepage () {
             <div className="meny-platshallare"></div>
             <ul>
                 <li> <button className="hamburger-knapp">
-                        <div class="hamburger">
+                        <div className="hamburger">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -36,4 +36,4 @@ function Homepage () {
     );
 }
 
-export default Homepage;
+export default Meny;
